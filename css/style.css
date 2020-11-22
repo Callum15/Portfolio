@@ -69,14 +69,14 @@ body{
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 } 
 
-
 h2{
 	font-size: 35px;
 	text-align: center;
 }
 
 #portfolio{
-	height: 900px;
+	height: auto;
+	overflow: auto;
 }
 .leftPort{
 	float: left;
@@ -236,28 +236,26 @@ footer{
 }
 
 
+
+
+
 @media (max-width:900px){	
-	.portfolio{
-		height: 450px;
-	}
 	.leftPort{
-		float: left;
-		width: 50%;
+		width: 100%;
 	}
 
 	.iphone{
-		margin: 30px 5%;
-		width: 90%;
+		margin: 30px 2.5%;
+		width: 95%;
 	}
 
 	.rightPort{
-		float: left;
-		width: 50%;
+		width: 100%;
 	}
 
 	.euro{
-		margin: 30px ;
-		width: 90%;
+		margin: 30px 2.5%;
+		width: 95%;
 	}
 
 
