@@ -100,13 +100,14 @@ h2{
 }
 
 p{
-	font-size:  20px;
+	font-size:  1.5vw;
 }
 
 #about{
 	background-color: #0A599E;
 	padding: 55px 5%;
-	height: 500px;
+	height: auto;
+	overflow: auto;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 	clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
 	width: 100%;
@@ -130,10 +131,14 @@ p{
 	height: auto;
 	width: 40%;
 	text-align: right;
+	margin: 0 0 40px 0;
+	position: relative;
 }
 
 .aboutImage{
 	width: 90%;
+
+
 }
 
 #contact{
@@ -238,7 +243,6 @@ footer{
 
 
 
-
 @media (max-width:900px){	
 	.leftPort{
 		width: 100%;
@@ -258,6 +262,47 @@ footer{
 		width: 95%;
 	}
 
+	#about{
+		background-color: #0A599E;
+		padding: 55px 5%;
+		height: auto;
+		overflow: auto;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+		clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+		width: 100%;
+	}
+
+	#about h2{
+		color: white;
+	}
+
+	.aboutText{
+		float: left;
+		height: auto;
+		width: 100%;
+		padding: 20px 0 0 0;
+		color: white;
+	}
+
+
+	.aboutImg{
+		float: right;
+		height: auto;
+		width: 100%;
+		text-align: right;
+		margin: 0 0 40px 0;
+		position: relative;
+	}
+
+	.aboutImage{
+		width: 90%;
+
+
+	}
+
+	
+	
+	
 
 }
 
