@@ -283,28 +283,17 @@ footer{
 	}
 	
 	.aboutText{
-		height: auto;
 		width: 100%;
 		padding: 20px 0 0 0;
-		color: white;
 	}
 
 
 	.aboutImg{
-		float: right;
-		height: auto;
 		width: 100%;
 		text-align: center;
 		margin: 20px 0 2px 0;
 		position: relative;
 	}
-
-	.aboutImage{
-		width: 90%;
-
-
-	}
-
 	
 	
 	
