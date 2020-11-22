@@ -243,7 +243,14 @@ footer{
 
 
 
-@media (max-width:900px){	
+@media (max-width:900px){
+	#hero{
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+	} 
+	
+	
+	
 	.leftPort{
 		width: 100%;
 	}
