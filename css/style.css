@@ -217,30 +217,6 @@ input[type=email] {
 	box-sizing: border-box;
 }
 
-footer a{
-	text-decoration: none;
-	color:#ffffff;
-	font-size: 20px;
-}
-
-li{
-	margin: 25px 0;
-}
-
-ul{
-	list-style-type: none;
-}
-
-footer{
-	background-color: #0A599E;
-	padding: 100px 5%;
-	height: 350px;	 
-	-webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
-	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-
-}
-
-
 
 
 @media (max-width:900px){
