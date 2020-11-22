@@ -121,8 +121,8 @@ p{
 	float: left;
 	height: auto;
 	width: 60%;
-	padding: 20px 0 0 0;
 	color: white;
+	margin: 20px 0 0 0;
 }
 
 
@@ -163,8 +163,9 @@ p{
 
 h3{
 	font-size: 25px;
-	margin: 40px 0 0 0;
+	margin: 50px 0 0 0;
 	text-align: center;
+	padding: 0 20%;
 	
 }
 
@@ -225,7 +226,16 @@ input[type=email] {
 	box-sizing: border-box;
 }
 
+@media (max-width:1030px){
+	h3{
+		font-size: 25px;
+		margin: 20px 0 0 0;
+		text-align: center;
+		padding: 0 10%;
 
+	}
+
+}
 
 @media (max-width:900px){
 	#hero{
