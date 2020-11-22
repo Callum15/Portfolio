@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Callum Bell</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#" onClick="closeNav()">Home</a>
+			<a href="#portfolio" onClick="closeNav()">Portfolio</a>
+			<a href="#about" onClick="closeNav()">About</a>
+			<a href="#contact" onClick="closeNav()">Contact</a>
+		</div>
+	
+		<div id="main">
+			<span style="font-size:50px; color: #898888; cursor:pointer" onclick="openNav()">&#9776;</span>
+		</div>
+		
+		<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			  document.getElementById("main").style.marginLeft = "250px";
+			  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			}
+
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			  document.getElementById("main").style.marginLeft= "0";
+			  document.body.style.backgroundColor = "white";
+			}
+		</script> 
+
+	
+			<div id="hero">
+			
+			</div>
+		
+			<div id="portfolio">
+				<h2>Portfolio</h2>
+				
+				<div class="leftPort">
+					<img class="iphone" src="img/iphone.png" alt="iphone promotional website">
+				</div> 
+				
+				<div class="rightPort">
+					<img class="euro" src="img/european.png" alt="European Relay">
+				</div>
+			</div>
+	
+	
+			<div id="about">
+				
+				<h2>About Me</h2>
+				<div class="aboutText">
+					<p>My Name is Callum Bell, I am a Web Development student at North East Scotland College and I am currently in my second year. The first time I did Web Development was in Computing Scince during my fith year at Academy, and I really enjoyed it so I decided to study Web Development at NESCOL rather than staying on at school for a final year. </p>
+					<br/>
+					<p>I am a very motivated and hard working, I got my first job when I was 13 years old washing dishes in a hotel where I stayed for 2 years, then I went on to work in a shop and a Chinese Takaway. I now work in a Workshop in Aberdeen Harbour, that repairs Heat Exhangers from machinery for oil rigs, ships, quarries and farms. But i am currently part of a team in a different branch setting up a Goods in System, that tracks when parts are delivered and where they are.</p>
+				</div>
+				<div class="aboutImg">
+					<img class="aboutImage" src="img/About.jpg" alt="website planning mind map">
+				</div>
+			</div>
+	
+			<div id="contact">
+				<h2>Contact</h2>
+				
+				<div class="contactImg">
+					<img class="contactImage" src="img/Contact.png" alt="Responsive Website Example">
+				</div>
+				
+				<div class="contactText">
+					<p>Lorem ipsum dolor sit amet, eam quodsi percipit iracundia id, deserunt efficiendi has no. Nec dicant nusquam id, liber admodum fabellas usu id. Consul persius eam et, possit quaeque blandit no nam. Te vix clita salutandi sententiae, sit ne fuisset assueverit adversarium. Qui at ubique tibique, at has volumus deleniti. Eos ea scripta debitis electram, sumo expetendis nam ut.</p>
+					<br/>
+					<p>Lorem ipsum dolor sit amet, eam quodsi percipit iracundia id, deserunt efficiendi has no. Nec dicant nusquam id, liber admodum fabellas usu id. Consul persius eam et, possit quaeque blandit no nam. Te vix clita salutandi sententiae, sit ne fuisset assueverit adversarium. Qui at ubique tibique, at has volumus deleniti. Eos ea scripta debitis electram, sumo expetendis nam ut.</p>					
+				</div>
+				<form>
+					<input type="text" class="form name"  placeholder="Name">
+					<input type="email" class="form email" placeholder="Email">
+					<input type="text" class="form message" placeholder="Message">
+					<div class="buttonDiv">
+						<input type="button" class="button" value="Submit" onClick="popUp()">
+					</div>
+				</form>
+			</div>
+	
+			<script>
+				function popUp(){
+					alert("Congratulations! Your message has been sent.");			
+				}
+			</script> 
+
+</body>
+</html>
