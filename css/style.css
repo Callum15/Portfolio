@@ -276,6 +276,10 @@ footer{
 		color: white;
 	}
 
+	p{
+		font-size: 15px;
+	}
+	
 	.aboutText{
 		float: left;
 		height: auto;
@@ -289,8 +293,8 @@ footer{
 		float: right;
 		height: auto;
 		width: 100%;
-		text-align: right;
-		margin: 0 0 40px 0;
+		text-align: center;
+		margin: 20px 0 40px 0;
 		position: relative;
 	}
 
